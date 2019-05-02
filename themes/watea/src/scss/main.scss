@@ -1,0 +1,17 @@
+// Watea theme specific variables and overrides
+@import "./variables";
+
+// Starter theme styles
+@import "../../../starter/src/scss/main";
+
+// Watea theme mixins
+@import "./utils/mixins";
+
+// Watea theme styles
+@import "./typography";
+@import "./components/carousel";
+@import "./components/footer";
+@import "./components/forms";
+@import "./components/header";
+@import "./components/nav";
+@import "./components/pages";

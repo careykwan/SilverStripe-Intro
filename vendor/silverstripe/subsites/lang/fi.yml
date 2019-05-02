@@ -1,0 +1,17 @@
+fi:
+  DomainNameField:
+    INVALID_DOMAIN: 'Virheellinen domain-nimi'
+  Subsite:
+    COPYSTRUCTURE: 'Kopioi rakenne kohteesta:'
+    NOTEMPLATE: 'Ei sivupohjaa'
+  Subsites:
+    DefaultSiteFieldLabel: 'Oletussivusto'
+    DomainFieldLabel: Domain
+    IsPublicFieldLabel: 'Aktivoi julkinen pääsy'
+    LanguageFieldLabel: Kieli
+    MainSiteTitle: 'Pääsivusto'
+    PageTypeBlacklistFieldLabel: 'Sivutyyppien mustalista'
+    PrimaryDomainFieldLabel: 'Oletusdomain'
+    RedirectURLFieldLabel: 'Edelleenohjaus URL'
+    ThemeFieldLabel: Teema
+    TitleFieldLabel: 'Alisivuston nimi'

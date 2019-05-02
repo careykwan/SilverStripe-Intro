@@ -1,0 +1,7 @@
+SilverStripe\UserForms\Control\UserDefinedFormController:
+  extensions:
+    - 'KiaOraExtension'
+    
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - 'SiteConfigExtension'

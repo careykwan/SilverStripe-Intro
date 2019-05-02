@@ -1,0 +1,17 @@
+de:
+  DomainNameField:
+    INVALID_DOMAIN: 'Ungültige Domain'
+  Subsite:
+    COPYSTRUCTURE: 'Struktur kopieren von:'
+    NOTEMPLATE: 'Kein Template'
+  Subsites:
+    DefaultSiteFieldLabel: 'Standard Seite'
+    DomainFieldLabel: Domäne
+    IsPublicFieldLabel: 'Öffentlich zugänglich'
+    LanguageFieldLabel: Sprache
+    MainSiteTitle: 'Hauptsite'
+    PageTypeBlacklistFieldLabel: 'Ausgeschlossene Seitentypen'
+    PrimaryDomainFieldLabel: 'Primäre Domain'
+    RedirectURLFieldLabel: 'Weierleitungs-URL'
+    ThemeFieldLabel: Theme
+    TitleFieldLabel: 'Name der Subsite'

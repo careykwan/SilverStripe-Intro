@@ -1,0 +1,141 @@
+// Generic page styles
+.main {
+  // Add underline to links in general content areas only
+  a {
+    text-decoration: underline;
+  }
+
+  // No underlines for certain components
+  .pagination a,
+  .label,
+  .btn,
+  .fa {
+    text-decoration: none;
+  }
+
+  .pagination .active a {
+    @include theme-color("accent", "background-color");
+    @include theme-color("accent", "border-color");
+  }
+}
+
+// General pages
+.page-utilities {
+  border-top: 1px solid $gray-lighter;
+  padding-top: $line-height-computed;
+  padding-bottom: $line-height-computed / 5;
+
+  .fa {
+    color: $gray-light;
+    font-size: 2rem;
+
+    &:hover {
+      color: $gray;
+    }
+  }
+}
+
+.page-utilities-actions {
+  margin-top: -$line-height-computed * .66;
+  margin-bottom: 0;
+
+  > li {
+    padding: 0;
+  }
+}
+
+.page-utilities-last-modified {
+  color: $gray-light;
+  float: left;
+  text-align: left;
+}
+
+.page-header {
+  padding-bottom: ($line-height-computed / 3) - 2;
+  margin: $line-height-computed 0 (($line-height-computed / 2) - 2);
+  border-bottom: 0;
+
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3 {
+    margin-bottom: ($line-height-computed / 3);
+  }
+}
+
+.label {
+  border-radius: $border-radius-base;
+  padding-bottom: .2em;
+}
+
+.well {
+  box-shadow: none;
+}
+
+// Page sidebar
+.page-sidebar-header {
+  border-bottom: 1px solid $gray;
+  padding-bottom: 8px;
+  margin-top: 4px;
+}
+
+.page-sidebar-nav a {
+  padding: $padding-base-vertical / 2 0;
+  display: block;
+}
+
+// Homepage Jumbotron
+.jumbotron {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: -$line-height-computed; //24px
+  margin-bottom: $line-height-computed * 3; //72px
+}
+
+// Align homepage content with sidebar news header
+.home-page h1:first-of-type {
+  margin-top: 0;
+}
+
+// Page features & quicklinks, used on homepage
+.page-showcase {
+  background-color: $gray-lighter;
+  border-top: 1px solid darken($gray-lighter, 10%);
+  padding-bottom: $line-height-computed;
+  padding-top: $line-height-computed * 2.5;
+
+  a {
+    color: $link-color-darker;
+    text-decoration: underline;
+  }
+}
+
+.page-showcase-quicklinks,
+.page-showcase-feature {
+  margin-bottom: $line-height-computed * 2;
+}
+
+.page-showcase-quicklinks {
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  li {
+    margin-bottom: $line-height-computed / 3;
+  }
+}
+
+// News/Events/Blog items adjustment to bring only the first of the articles inline with the sidebar
+.news-events-article,
+.blog-entry {
+  &:first-child h2 {
+    margin-top: 4px;
+  }
+}
+
+.h5.news-events-archive-year {
+  margin-top: 3px;
+}
